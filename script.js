@@ -1,1 +1,3 @@
-function saludo() {}
+function saludo() {
+  console.log("¿se entendio?");
+}
