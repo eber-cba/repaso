@@ -157,15 +157,10 @@ function eliminarDuplicados(array) {
 
  [1, 2, 2, 3, 3, 3, 4], la función debe devolver [1, 2, 3, 4].
  */
-
-let nombre = document.getElementById("nombre").value;
+let nombre;
 let apellido;
-let mail;
+nombre.hide();
 
-mail.style.display = "none";
 if (nombre != "" && apellido != "") {
-  mail.style.display = "";
+  nombre.show();
 }
-$("nombre").hide();
-
-$("nombre").show();
